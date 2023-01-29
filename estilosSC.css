@@ -1,0 +1,87 @@
+/* SELECTORES COMBINADOS */
+
+/*
+ Utiliza un selector agrupado para dar estilos a las clases parrafo - titulo1 - titulo2, los estilos son los siguientes:
+    * fondo de color teal 
+    * texto centrado 
+    * color de texto blanco
+ */
+ 
+ .parrafo, .titulo.titulo1.🍔, .titulo.titulo2{
+    background-color: teal;
+    text-align: center;
+    color: white;
+ }
+
+ /*
+  Utiliza un selector descendiente para dar estilos únicamente a los titulos 2, 3 y 4 utilizando la clase (titulo), los 
+  estilos son los siguientes:
+    * fondo de color orange 
+    * texto alineado a la derecha 
+    * color de texto negro
+    * tamaño de fuente 30px 
+ */
+ .principal .sobre-nosotros .titulo.titulo2{
+    background-color: orange;
+    text-align: right;
+    color: black;
+    font-size: 30px;
+ }
+ .principal .titulo.titulo3{
+    background-color: orange;
+    text-align: right;
+    color: black;
+    font-size: 30px;
+ }
+ .principal .titulo.titulo4{
+    background-color: orange;
+    text-align: right;
+    color: black;
+    font-size: 30px;
+ }
+
+ /*
+  Utiliza un selector agrupado para dar estilos a la clase titulo2 por medio de la clase parrafo, los estilos son los siguientes:
+    * fondo de color red 
+    * texto centrado 
+    * color de texto blanco
+    * tamaño de fuente 40px
+    * texto tachado
+ */
+ p.parrafo.titulo2{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-decoration-line: line-through;
+ }
+
+ /*
+  Utiliza un selector de hijo directo para dar estilos a todos los parrafos que se encuentran dentro 
+  de la etiqueta aside, los estilos son los siguientes:
+    * fondo de color violeta 
+    * texto alineado a la izquierda 
+    * color de texto blanco
+    * tamaño de fuente 25px
+ */   
+aside > p{
+    background-color: violet;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+}
+
+ /*
+  Utiliza un selector de hermano adyacente para dar estilos al elemento h6, los estilos son los siguientes:
+    * fondo de color azul 
+    * texto centrado
+    * color de texto blanco
+    * tamaño de fuente 20px
+ */
+ aside + h6{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+ }
+

@@ -1,0 +1,67 @@
+ /* SELECTORES BASICOS */
+
+ /*
+  Utiliza un selector de etiqueta para aplicar un fondo de color (papayawhip) a todos los elementos p
+ */
+ p{
+    background-color: papayawhip;
+ }
+
+ /*
+  Utiliza un selector de clase (titulo) para aplicar lo siguiente:
+    * fondo de color teal
+    * color de texto white
+    * texto dentrado 
+ */
+ .titulo{
+    background-color: teal;
+    color: white;
+    text-align: center;
+ }
+
+
+ /*
+  Utiliza un selector de ID (parrafoNum1) para aplicar lo siguiente:
+    * fondo de color coral
+    * color de texto blue
+    * texto alineado a la derecha
+    * tamaño de fuente 20 px 
+ */
+ #parrafoNum1{
+    background-color: coral;
+    color: blue;
+    text-align: right;
+    font-size: 20px;
+ }
+
+
+ /*
+  Utiliza un selector de Emoji (🍔) para aplicar lo siguiente:
+    * fondo de color negro
+    * color de texto amarillo
+    * texto alineado a la izquierda
+    * tamaño de fuente 30 px 
+    * texto subrayado
+ */
+ .🍔{
+    background-color: black;
+    color: yellow;
+    text-align: left;
+    font-size: 30px;
+    text-decoration-line: underline;
+ }
+
+
+ /*
+  Utiliza un selector universal para aplicar lo siguiente:
+    * fondo de color #ddbcdb
+    * color de texto negro
+    * texto dentrado 
+    * tamaño de fuente 25 px 
+ */
+ *{
+    background-color: #ddbcdb;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+ }
